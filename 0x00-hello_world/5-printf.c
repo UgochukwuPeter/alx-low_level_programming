@@ -4,7 +4,7 @@
 
 /**
  *
- *  * main - Prints quote
+ *  * main -Entry point
  *
  *   *
  *
