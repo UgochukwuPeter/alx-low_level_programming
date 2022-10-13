@@ -1,16 +1,11 @@
 #include <stdio.h>
 
 /**
+ *  Main - prints out a line of string
  *
- *  * main - Entry point
- *
- *   *
- *
- *    * The function will output a string
- *
- *     * Return: Always 0 (Success)
- *
- *      */
+ *  Description - printf prints a line of string characters
+ *  Return: return zero on sucess
+ */
 
 int main(void)
 
@@ -18,6 +13,6 @@ int main(void)
 
 		printf("with proper grammar, but the outcome is a piece of art,\n");
 
-			return (0);
+		return (0);
 
 }
