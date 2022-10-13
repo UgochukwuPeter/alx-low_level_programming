@@ -1,18 +1,16 @@
 #include <stdio.h>
 
-
-
 /**
  *
- *  * main -Entry point
+ *  * main - Entry point
  *
  *   *
  *
- *    * Return: zero on success
+ *    * The function will output a string
  *
- *     *
+ *     * Return: Always 0 (Success)
  *
- **/
+ *      */
 
 int main(void)
 
