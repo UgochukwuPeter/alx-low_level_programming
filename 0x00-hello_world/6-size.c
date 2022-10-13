@@ -6,7 +6,8 @@
  * Return: zero on success
  */
 
-int main(void){
+int main(void)
+{
 
 	int charSize = sizeof(char);
 	int intSize = sizeof(int);
