@@ -1,10 +1,9 @@
 #include <stdio.h>
 
 /**
- *  Main - prints out a line of string
+ *  main - Prints 'A sting of character'
  *
- *  Description - printf prints a line of string characters
- *  Return: return zero on sucess
+ *  Return: return zero on success
  */
 
 int main(void)
@@ -13,6 +12,6 @@ int main(void)
 
 		printf("with proper grammar, but the outcome is a piece of art,\n");
 
-		return (0);
+			return (0);
 
 }
