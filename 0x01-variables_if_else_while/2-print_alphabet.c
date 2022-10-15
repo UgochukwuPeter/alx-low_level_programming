@@ -9,12 +9,14 @@
 int main(void)
 {
 	char ch = 'a';
+	char line = '\n';
 
 	while (ch <= 'z')
 	{
 		putchar(ch);
 		ch++;
 	}
+	putchar(line);
 
 
 	return (0);
