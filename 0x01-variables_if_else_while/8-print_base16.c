@@ -9,12 +9,19 @@
 
 int main(void)
 {
-	int num;
-	char *str = "123456789abcdef";
+	int num = 48;
 
-	for (num = 0; num <= 15; num++)
+	while (num <= 57)
 	{
-	putchar(str[num]);
+	putchar(num);
+	num++;
+	}
+	num = 97;
+
+	while (num <= 102)
+	{
+	putchar(num);
+	num++;
 	}
 	putchar('\n');
 
