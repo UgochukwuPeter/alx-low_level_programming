@@ -9,21 +9,18 @@
 
 int main(void)
 {
-	int num;
+	int num = 48;
 
-	for (num = 0 ; num <= '9' ;)
+	while (num < 58)
 	{
 	putchar(num);
-	if (num <= '8')
+	if (num < 57)
 	{
 	putchar(';');
 	putchar(' ');
+	}
 	num++;
 	}
-	else
-	num++;
-	}
-	putchar('\n');
 
 	return (0);
 }
