@@ -24,7 +24,7 @@ int natural_root(int x, int n)
 {
 	if (x * x > n)
 		return (-1);
-	if ( x * x == n)
+	if (x * x == n)
 		return (x);
 	return (natural_root(x + 1, n));
 }
